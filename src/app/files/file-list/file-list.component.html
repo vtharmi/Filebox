@@ -1,0 +1,73 @@
+<mat-card>
+  <mat-card-header style="background-color: #ceb714;">
+
+
+    <div class="mb-3 mt-1">
+      <span>Files</span>
+      <!-- <span class="filterBy-margin" style="float: right;">Filter by</span> -->
+      <div>
+        <i class="fas fa-search" aria-hidden="true"></i>
+        <input class="ml-2 mt-1" type="text" [(ngModel)]="listFilter" aria-label="Search" />
+      </div>
+
+    </div>
+  </mat-card-header>
+
+  <mat-card-content>
+
+    <div class="row">
+      <div class="table-responsive m-2">
+        <table class="table mb-1" *ngIf="files && files.length">
+          <thead style="text-align: center;">
+            <tr>
+              <!-- <th> -->
+              <!-- <input type="checkbox" aria-checked="false" aria-label="select all" style="cursor: pointer;" onclick="selectAll"> -->
+              <!-- </th> -->
+              <th>Name
+                <!-- <mat-checkbox class="headerCheckbox-margin" aria-checked="false" aria-label="select all">Name
+                </mat-checkbox> -->
+              </th>
+              <th>Created</th>
+              <th>Modified</th>
+              <th>Manage</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody style="text-align: center;">
+            <tr *ngFor="let file of filteredFiles;">
+                <td style="text-align: left;">
+                  <mat-checkbox color="primary" (change)="checkChange(file.fileId)" [id]="file.fileId"></mat-checkbox>
+                  <!-- <input type="text" value="{{file.fileName}}" id="rename" style="border: none;" [(ngModel)]="renameFile"> -->
+                  <span style="cursor:pointer">
+                    <a [routerLink]="['/files', file.fileId]" [queryParams]="{filterBy: listFilter}">
+                    {{file.fileName}}
+                    </a>
+                  </span>
+                </td>
+                <td>
+                  {{file.fileUploadedDate | date: 'MMM dd, yyyy HH:mm:ss a'}}
+                </td>
+                <td>
+                  {{file.fileModifiedLast | date: 'MMM dd, yyyy HH:mm:ss a'}}
+                </td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      ...
+                    </button>
+                    <div class="dropdown-menu m-2" aria-labelledby="dropdownMenuButton" style="border-radius: 5px;">
+                      <button class="dropdown-item" type="button" (click)="onDownload(file.fileUrl)">Download</button>
+                      <!-- <button class="dropdown-item" type="button" (click)="onRename(file.fileId)">Rename</button> -->
+                      <button class="dropdown-item" type="button"
+                        (click)="onDelete(file.fileId, filePath)">Delete</button>
+                    </div>
+                  </div>
+                </td>         
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>

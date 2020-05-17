@@ -1,0 +1,1521 @@
+[2020-02-06T17:01:25.271] [DEBUG] book - MongoDb is connected successfully
+[2020-02-07T22:39:14.118] [ERROR] book - undefined
+[2020-02-07T22:39:56.485] [ERROR] book - undefined
+[2020-02-08T08:44:56.020] [ERROR] book - something wrong in retriving user User validation failed: password: Cast to String failed for value "Promise { <pending> }" at path "password", email: Email is invalid
+[2020-02-08T08:45:49.017] [ERROR] book - something wrong in retriving user User validation failed: password: Cast to String failed for value "Promise { <pending> }" at path "password"
+[2020-02-12T12:20:04.764] [ERROR] book - something wrong in retriving user Illegal arguments: undefined, number
+[2020-02-12T15:38:44.757] [ERROR] book - something wrong in retriving user Cannot read property 'toString' of undefined
+[2020-02-12T15:42:33.974] [ERROR] book - Error in registering TypeError: Cannot read property 'toString' of undefined
+    at model.userSchema.methods.generateAuthToken (/Users/thami/AngularTutorial/book-app/backend/models/user.js:52:44)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:22:34
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2020-02-12T16:39:24.455] [ERROR] book - Error in registering TypeError: Cannot read property 'toString' of undefined
+    at model.userSchema.methods.generateAuthToken (/Users/thami/AngularTutorial/book-app/backend/models/user.js:53:44)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:22:34
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2020-02-12T16:43:00.928] [ERROR] book - Error in registering TypeError: Cannot read property 'toString' of undefined
+    at model.userSchema.methods.generateAuthToken (/Users/thami/AngularTutorial/book-app/backend/models/user.js:53:44)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:22:34
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2020-02-12T16:43:54.152] [ERROR] book - Error in registering TypeError: Cannot read property 'toString' of undefined
+    at model.userSchema.methods.generateAuthToken (/Users/thami/AngularTutorial/book-app/backend/models/user.js:53:44)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:22:34
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2020-02-12T16:44:36.761] [ERROR] book - Error in registering TypeError: Cannot read property 'toString' of undefined
+    at model.userSchema.methods.generateAuthToken (/Users/thami/AngularTutorial/book-app/backend/models/user.js:53:44)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:22:34
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2020-02-12T16:44:39.154] [ERROR] book - Error in registering TypeError: Cannot read property 'toString' of undefined
+    at model.userSchema.methods.generateAuthToken (/Users/thami/AngularTutorial/book-app/backend/models/user.js:53:44)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:22:34
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2020-02-12T17:42:31.720] [ERROR] book - Error Error: Email or password is wrong
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:46:15)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:40:26
+[2020-02-12T17:44:44.002] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "thayakrn@gmail.com" }
+    at Function.create (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'thayakrn@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "thayakrn@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-02-12T17:45:38.020] [ERROR] book - Error Error: Email or password is wrong
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:41:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:40:26
+[2020-02-12T17:46:44.611] [ERROR] book - Error Error: Email or password is wrong
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:41:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:40:26
+[2020-02-12T17:47:58.309] [ERROR] book - Error Error: Email or password is wrong
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:46:15)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:40:26
+[2020-02-14T12:21:30.546] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "thami11114t@gmail.com" }
+    at Function.create (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'thami11114t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "thami11114t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-02-17T11:13:40.935] [ERROR] book - Error Error: Email or password is wrong
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:47:15)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:49:26
+[2020-02-17T12:03:49.283] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:47:15)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:49:22
+[2020-02-17T12:13:51.917] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:47:15)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:49:22
+[2020-02-17T12:14:16.832] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:47:15)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:49:22
+[2020-02-17T12:14:26.435] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:47:15)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:49:22
+[2020-02-17T12:15:36.450] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:47:15)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:49:22
+[2020-02-17T12:18:09.057] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:47:15)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:49:22
+[2020-02-17T12:18:42.086] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:47:15)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:49:22
+[2020-02-17T12:30:36.664] [ERROR] book - Error in registering ReferenceError: password is not defined
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:26:43
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularTutorial/book-app/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:275:10)
+    at /Users/thami/AngularTutorial/book-app/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/Users/thami/AngularTutorial/book-app/node_modules/raw-body/index.js:224:16)
+[2020-02-17T13:16:54.881] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:41:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:50:22
+[2020-02-17T15:26:26.859] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:47:15)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:51:22
+[2020-02-17T15:26:34.710] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:47:15)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:51:22
+[2020-02-17T15:28:26.854] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:47:15)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:51:22
+[2020-02-17T15:28:34.712] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:47:15)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:51:22
+[2020-02-18T14:23:04.240] [ERROR] book - Error TypeError: User.findByCredentials is not a function
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:45:33
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularTutorial/book-app/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:275:10)
+    at cors (/Users/thami/AngularTutorial/book-app/node_modules/cors/lib/index.js:188:7)
+    at /Users/thami/AngularTutorial/book-app/node_modules/cors/lib/index.js:224:17
+[2020-02-18T14:26:05.720] [ERROR] book - Error TypeError: User.findByCredentials is not a function
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:45:33
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularTutorial/book-app/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:275:10)
+    at cors (/Users/thami/AngularTutorial/book-app/node_modules/cors/lib/index.js:188:7)
+    at /Users/thami/AngularTutorial/book-app/node_modules/cors/lib/index.js:224:17
+[2020-02-19T10:06:17.032] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:50:15)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:58:22
+[2020-02-19T10:06:25.167] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:50:15)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:58:22
+[2020-02-19T10:08:16.188] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:50:15)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:58:22
+[2020-02-19T10:10:16.164] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:50:15)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:58:22
+[2020-02-19T14:12:41.423] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:44:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:58:22
+[2020-02-19T14:14:41.418] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularTutorial/book-app/backend/models/user.js:44:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularTutorial/book-app/backend/index.js:58:22
+[2020-03-10T15:42:49.722] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "it16124004@my.sliit.lk" }
+    at Function.create (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'it16124004@my.sliit.lk' },
+  errmsg: 'E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "it16124004@my.sliit.lk" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-03-10T15:43:27.355] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "it16124004@my.sliit.lk" }
+    at Function.create (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'it16124004@my.sliit.lk' },
+  errmsg: 'E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "it16124004@my.sliit.lk" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-03-10T15:44:49.725] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "it16124004@my.sliit.lk" }
+    at Function.create (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'it16124004@my.sliit.lk' },
+  errmsg: 'E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "it16124004@my.sliit.lk" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-03-10T15:45:58.074] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:40:45
+[2020-03-10T15:47:58.080] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:40:45
+[2020-03-10T15:49:08.482] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:40:45
+[2020-03-10T15:51:08.488] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:40:45
+[2020-03-10T19:33:02.235] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:40:45
+[2020-03-10T19:33:08.374] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:40:45
+[2020-03-10T19:35:02.242] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:40:45
+[2020-03-10T19:35:08.379] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:40:45
+[2020-03-10T19:39:25.329] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:40:45
+[2020-03-10T19:41:25.333] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:40:45
+[2020-03-10T19:45:38.741] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "it16124004@my.sliit.lk" }
+    at Function.create (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'it16124004@my.sliit.lk' },
+  errmsg: 'E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "it16124004@my.sliit.lk" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-03-10T19:47:33.665] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "tharmi@gmail.com" }
+    at Function.create (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "tharmi@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-03-10T19:47:38.714] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "it16124004@my.sliit.lk" }
+    at Function.create (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'it16124004@my.sliit.lk' },
+  errmsg: 'E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "it16124004@my.sliit.lk" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-03-10T19:48:07.572] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "tharmi@gmail.com" }
+    at Function.create (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "tharmi@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-03-15T13:13:04.915] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-03-15T13:15:04.860] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularTutorial/book-app/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-03-15T13:36:16.042] [ERROR] book - Error in registering Error: Illegal arguments: object, number
+    at _async (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:39:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularTutorial/book-app/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:284:7
+[2020-03-15T13:36:38.013] [ERROR] book - Error in registering Error: Illegal arguments: object, number
+    at _async (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:39:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularTutorial/book-app/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:284:7
+[2020-03-15T19:19:59.768] [ERROR] book - Error in registering Error: Illegal arguments: object, number
+    at _async (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:39:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularTutorial/book-app/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:284:7
+[2020-03-15T19:20:00.943] [ERROR] book - Error in registering Error: Illegal arguments: object, number
+    at _async (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:39:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularTutorial/book-app/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:284:7
+[2020-03-15T21:51:02.819] [ERROR] book - Error in registering Error: Illegal arguments: object, number
+    at _async (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:39:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularTutorial/book-app/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:284:7
+[2020-03-15T22:46:01.796] [ERROR] book - Error in registering Error: Illegal arguments: object, number
+    at _async (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:39:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularTutorial/book-app/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:284:7
+[2020-03-15T22:46:04.058] [ERROR] book - Error in registering Error: Illegal arguments: object, number
+    at _async (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:39:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularTutorial/book-app/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:284:7
+[2020-03-15T22:48:01.800] [ERROR] book - Error in registering Error: Illegal arguments: object, number
+    at _async (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularTutorial/book-app/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularTutorial/book-app/backend/index.js:39:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularTutorial/book-app/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularTutorial/book-app/node_modules/express/lib/router/index.js:284:7
+[2020-04-27T14:58:57.842] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularProjects/MediaServer/index.js:39:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularProjects/MediaServer/node_modules/body-parser/lib/types/urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:284:7
+[2020-04-27T15:00:37.967] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularProjects/MediaServer/index.js:39:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularProjects/MediaServer/node_modules/body-parser/lib/types/urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:284:7
+[2020-04-27T15:02:30.246] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularProjects/MediaServer/index.js:39:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularProjects/MediaServer/node_modules/body-parser/lib/types/urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:284:7
+[2020-04-27T15:04:26.256] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularProjects/MediaServer/index.js:39:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularProjects/MediaServer/node_modules/body-parser/lib/types/urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:284:7
+[2020-04-27T15:05:21.867] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularProjects/MediaServer/index.js:39:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularProjects/MediaServer/node_modules/body-parser/lib/types/urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:284:7
+[2020-04-27T15:07:21.872] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularProjects/MediaServer/index.js:39:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularProjects/MediaServer/node_modules/body-parser/lib/types/urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:284:7
+[2020-04-27T15:13:59.252] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularProjects/MediaServer/index.js:39:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularProjects/MediaServer/node_modules/body-parser/lib/types/urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:284:7
+[2020-05-02T01:00:34.211] [ERROR] book - Error in getting file Cast to ObjectId failed for value "null" at path "_id" for model "UserFile"
+[2020-05-02T01:00:43.503] [ERROR] book - Error in getting file Cast to ObjectId failed for value "null" at path "_id" for model "UserFile"
+[2020-05-02T01:01:32.329] [ERROR] book - Error in getting file Cast to ObjectId failed for value "{ _id: 'null' }" at path "_id" for model "UserFile"
+[2020-05-02T01:01:45.565] [ERROR] book - Error in getting file Cast to ObjectId failed for value "{ _id: 'null' }" at path "_id" for model "UserFile"
+[2020-05-02T01:02:26.165] [ERROR] book - Error in getting file Cast to ObjectId failed for value "{ _id: 'null' }" at path "_id" for model "UserFile"
+[2020-05-02T01:02:51.561] [ERROR] book - Error in getting file Cast to ObjectId failed for value "{ _id: 'null' }" at path "_id" for model "UserFile"
+[2020-05-02T01:02:55.422] [ERROR] book - Error in getting file Cast to ObjectId failed for value "{ _id: 'null' }" at path "_id" for model "UserFile"
+[2020-05-02T01:03:21.143] [ERROR] book - Error in getting file Cast to ObjectId failed for value "{ _id: 'null' }" at path "_id" for model "UserFile"
+[2020-05-02T01:03:23.621] [ERROR] book - Error in getting file Cast to ObjectId failed for value "{ _id: 'null' }" at path "_id" for model "UserFile"
+[2020-05-06T14:58:54.900] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularProjects/MediaServer/index.js:42:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:275:10)
+    at /Users/thami/AngularProjects/MediaServer/index.js:34:5
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:284:7
+[2020-05-06T15:01:24.808] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularProjects/MediaServer/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularProjects/MediaServer/index.js:42:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:275:10)
+    at /Users/thami/AngularProjects/MediaServer/index.js:34:5
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/express/lib/router/index.js:284:7
+[2020-05-06T16:41:21.293] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:64:22
+[2020-05-06T16:42:12.041] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-06T16:43:17.838] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-06T16:44:01.510] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-06T17:12:19.966] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-06T17:13:42.985] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-06T17:15:36.317] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-06T17:16:35.838] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-06T17:17:13.224] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-06T17:18:22.603] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-06T18:29:04.321] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi111@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi111@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi111@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-06T18:29:10.453] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi111@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi111@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi111@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-06T18:29:13.475] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi111@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi111@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi111@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-06T18:31:04.295] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi111@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi111@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi111@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-06T18:31:10.460] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi111@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi111@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi111@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-06T18:32:31.854] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-06T18:34:31.866] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-06T18:38:10.714] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-06T18:40:38.425] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-06T18:42:38.427] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-06T18:59:08.783] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:63:22
+[2020-05-06T19:01:08.791] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:63:22
+[2020-05-08T20:23:40.103] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-08T20:23:41.563] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-08T20:23:44.589] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-08T20:23:45.175] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-08T20:23:51.160] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-08T20:23:52.123] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-08T20:24:15.178] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-09T21:23:46.777] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-09T21:23:48.527] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-09T21:23:54.241] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-09T21:24:08.698] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-09T21:24:31.645] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-09T21:24:45.840] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T19:36:58.700] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T19:38:58.704] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T19:39:59.430] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T19:54:00.147] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T19:55:42.559] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T19:57:09.813] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T19:58:29.794] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T19:59:45.303] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T20:00:11.136] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T20:01:45.671] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T20:02:46.869] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T20:03:36.327] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T20:04:47.851] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T20:05:19.066] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T20:06:26.668] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T20:09:29.547] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T20:11:51.282] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T20:33:47.759] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T22:19:27.364] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T22:22:48.744] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T22:23:36.654] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T22:25:36.454] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T22:26:54.081] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T22:27:32.038] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T22:29:22.877] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T22:30:44.329] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:56:22
+[2020-05-14T22:45:11.929] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:60:22
+[2020-05-14T22:46:14.380] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:60:22
+[2020-05-14T22:47:06.276] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:60:22
+[2020-05-14T22:47:19.135] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:60:22
+[2020-05-14T22:51:39.515] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:60:22
+[2020-05-14T22:52:17.347] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:60:22
+[2020-05-14T22:52:27.299] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:60:22
+[2020-05-14T22:54:57.066] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:60:22
+[2020-05-14T22:59:24.990] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:60:22
+[2020-05-14T23:00:53.983] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:60:22
+[2020-05-14T23:03:27.950] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-14T23:03:48.086] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:60:22
+[2020-05-14T23:04:50.758] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-14T23:06:09.786] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:60:22
+[2020-05-14T23:06:15.460] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:60:22
+[2020-05-14T23:06:26.632] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:60:22
+[2020-05-14T23:06:47.286] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/thami/AngularProjects/MediaServer/node_modules/mongoose/node_modules/mongodb/lib/core/connection/pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-05-14T23:07:39.763] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:60:22
+[2020-05-14T23:10:29.022] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:60:22
+[2020-05-14T23:12:26.310] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:60:22
+[2020-05-14T23:14:36.165] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:60:22
+[2020-05-14T23:23:12.048] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:60:22
+[2020-05-16T14:19:07.207] [ERROR] book - Error in sending resettoken mail
+[2020-05-16T14:19:07.208] [DEBUG] book - result is  undefined
+[2020-05-16T14:21:43.508] [ERROR] book - Error in sending resettoken mail
+[2020-05-16T14:21:43.510] [DEBUG] book - result is  undefined
+[2020-05-16T14:23:20.229] [ERROR] book - Error in sending resettoken mail Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 14sm3749283pfy.38 - gsmtp
+    at SMTPConnection._formatError (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:1523:34)
+    at SMTPConnection.<anonymous> (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:550:26)
+    at SMTPConnection._processResponse (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:942:20)
+    at SMTPConnection._onData (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)
+    at TLSSocket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at TLSSocket.Readable.push (_stream_readable.js:220:10)
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:182:23) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 14sm3749283pfy.38 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2020-05-16T14:23:20.231] [DEBUG] book - result is  undefined
+[2020-05-16T14:25:13.410] [ERROR] book - Error in sending resettoken mail Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 78sm3486800pgd.33 - gsmtp
+    at SMTPConnection._formatError (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:1523:34)
+    at SMTPConnection.<anonymous> (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:550:26)
+    at SMTPConnection._processResponse (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:942:20)
+    at SMTPConnection._onData (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)
+    at TLSSocket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at TLSSocket.Readable.push (_stream_readable.js:220:10)
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:182:23) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 78sm3486800pgd.33 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2020-05-16T14:25:13.413] [DEBUG] book - result is  undefined
+[2020-05-16T14:27:54.987] [ERROR] book - Error in sending resettoken mail Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials b20sm3662122pff.8 - gsmtp
+    at SMTPConnection._formatError (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:1523:34)
+    at SMTPConnection.<anonymous> (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:550:26)
+    at SMTPConnection._processResponse (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:942:20)
+    at SMTPConnection._onData (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)
+    at TLSSocket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at TLSSocket.Readable.push (_stream_readable.js:220:10)
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:182:23) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials b20sm3662122pff.8 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2020-05-16T14:27:54.990] [DEBUG] book - result is  undefined
+[2020-05-16T17:54:19.789] [ERROR] book - Error in sending resettoken mail Error: Mail command failed: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError x7sm4306101pfj.122 - gsmtp
+    at SMTPConnection._formatError (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:784:19)
+    at SMTPConnection._actionMAIL (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:1553:34)
+    at SMTPConnection.<anonymous> (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:1035:18)
+    at SMTPConnection._processResponse (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:942:20)
+    at SMTPConnection._onData (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)
+    at TLSSocket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at TLSSocket.Readable.push (_stream_readable.js:220:10)
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:182:23) {
+  code: 'EENVELOPE',
+  response: '530-5.7.0 Authentication Required. Learn more at\n' +
+    '530 5.7.0  https://support.google.com/mail/?p=WantAuthError x7sm4306101pfj.122 - gsmtp',
+  responseCode: 530,
+  command: 'MAIL FROM'
+}
+[2020-05-16T17:54:19.792] [DEBUG] book - result is  undefined
+[2020-05-16T17:57:41.342] [ERROR] book - Error in sending resettoken mail Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials m9sm3856309pgd.1 - gsmtp
+    at SMTPConnection._formatError (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:1523:34)
+    at SMTPConnection.<anonymous> (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:550:26)
+    at SMTPConnection._processResponse (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:942:20)
+    at SMTPConnection._onData (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)
+    at TLSSocket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at TLSSocket.Readable.push (_stream_readable.js:220:10)
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:182:23) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials m9sm3856309pgd.1 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2020-05-16T17:57:41.345] [DEBUG] book - result is  undefined
+[2020-05-16T17:59:29.686] [ERROR] book - Error in sending resettoken mail Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials p10sm4077606pff.210 - gsmtp
+    at SMTPConnection._formatError (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:1523:34)
+    at SMTPConnection.<anonymous> (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:550:26)
+    at SMTPConnection._processResponse (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:942:20)
+    at SMTPConnection._onData (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (/Users/thami/AngularProjects/MediaServer/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)
+    at TLSSocket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at TLSSocket.Readable.push (_stream_readable.js:220:10)
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:182:23) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials p10sm4077606pff.210 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2020-05-16T17:59:29.689] [DEBUG] book - result is  undefined
+[2020-05-16T20:10:35.227] [INFO] book - resetToken  undefined
+[2020-05-16T20:13:07.316] [INFO] book - resetToken  undefined
+[2020-05-16T20:18:19.386] [INFO] book - resetToken  undefined
+[2020-05-16T20:24:41.561] [INFO] book - resetToken  undefined
+[2020-05-16T20:33:41.197] [INFO] book - resetToken  undefined
+[2020-05-16T20:42:29.577] [INFO] book - resetToken  undefined
+[2020-05-16T20:53:25.199] [ERROR] book - Token has expired
+[2020-05-16T22:20:16.881] [INFO] book - resetToken  undefined
+[2020-05-16T22:21:53.086] [INFO] book - resetToken  undefined
+[2020-05-16T22:22:27.611] [ERROR] book - Token has expired
+[2020-05-16T22:23:58.555] [INFO] book - resetToken  undefined
+[2020-05-16T22:24:37.144] [ERROR] book - Token has expired
+[2020-05-16T22:29:30.194] [ERROR] book - Token has expired
+[2020-05-16T22:33:47.684] [ERROR] book - Token has expired
+[2020-05-16T22:38:20.513] [ERROR] book - Token has expired
+[2020-05-16T22:42:02.527] [ERROR] book - Token has expired
+[2020-05-16T22:44:09.410] [INFO] book - resetToken  901bcf20d0317504aa923564
+[2020-05-16T22:46:05.808] [ERROR] book - Token has expired
+[2020-05-16T22:47:41.814] [ERROR] book - Token has expired
+[2020-05-16T22:54:26.940] [INFO] book - Password reset successfullly
+[2020-05-16T22:54:52.172] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:67:22
+[2020-05-16T22:55:06.738] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:67:22
+[2020-05-16T22:55:19.188] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:67:22
+[2020-05-16T23:01:12.487] [ERROR] book - invalid url
+[2020-05-16T23:02:03.606] [ERROR] book - invalid url
+[2020-05-16T23:02:05.975] [ERROR] book - invalid url
+[2020-05-16T23:04:11.638] [ERROR] book - invalid url
+[2020-05-16T23:04:12.769] [ERROR] book - invalid url
+[2020-05-16T23:04:16.030] [ERROR] book - invalid url
+[2020-05-16T23:05:03.690] [INFO] book - resetToken  56f2dd0bc48e6e8395754baa
+[2020-05-16T23:05:29.814] [INFO] book - Password reset successfullly
+[2020-05-16T23:08:32.763] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:67:22
+[2020-05-16T23:10:15.530] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:67:22
+[2020-05-16T23:19:37.206] [INFO] book - resetToken  9902795cebbd1663a80ced17
+[2020-05-16T23:20:07.451] [INFO] book - Password reset successfullly
+[2020-05-16T23:21:56.920] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:67:22
+[2020-05-16T23:24:36.654] [INFO] book - resetToken  54757e5cf607c92b6f0710cd
+[2020-05-16T23:25:14.059] [INFO] book - Password reset successfullly
+[2020-05-16T23:25:33.126] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:67:22
+[2020-05-16T23:31:57.118] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:67:22
+[2020-05-16T23:32:10.532] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:67:22
+[2020-05-16T23:33:02.108] [INFO] book - resetToken  440472043b63b30717d80731
+[2020-05-16T23:33:27.620] [INFO] book - Password reset successfullly
+[2020-05-16T23:40:27.306] [INFO] book - resetToken  bcb5f569658f031020ca5636
+[2020-05-16T23:40:51.390] [INFO] book - Password reset successfullly
+[2020-05-16T23:48:14.151] [INFO] book - resetToken  f6bf822b5ab9ca109dccc4ec
+[2020-05-16T23:48:39.484] [INFO] book - Password reset successfullly
+[2020-05-17T11:52:38.325] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:41:15)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:68:22
+[2020-05-17T15:23:41.765] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/MediaServer/backend/models/user.js:36:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/thami/AngularProjects/MediaServer/index.js:68:22

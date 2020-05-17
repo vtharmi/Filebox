@@ -1,0 +1,66 @@
+<div class="row"> 
+    <div class="col-xs-12" style="margin: auto; margin-top: 100px;">
+       <mat-card class="card"> 
+        <mat-card-header>
+            <mat-card-title style="color: rgb(78, 76, 76);">Sign in</mat-card-title>
+            <div class="m-1 p-1">
+                <mat-card-subtitle>or <span><a routerLink="/signUp" style="color: #ceb714;">create
+                            an account</a></span>
+                </mat-card-subtitle>
+            </div>
+        </mat-card-header>
+        <mat-card-content>
+            <form novalidate [formGroup]="loginForm" (ngSubmit)="submit()">
+                <!-- <span style="color: #dc3545; font-size: 80%;">{{errorMessage}}</span> -->
+                <div>
+                    <div class="form-group" style="color: #f7f7f7;">
+                        <label  style="color: rgb(78, 76, 76);"
+                                for='emailId'>
+                                Email
+                            </label>
+                        <input  class="form-control"
+                                type="text" 
+                                id="emailId"
+                                formControlName="email"
+                                [ngClass]="{'is-invalid': emailMessage}">
+                        <span class="invalid-feedback">
+                            {{emailMessage}}
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <div class="form-group" style="color: #f7f7f7;">
+                        <label  style="color: rgb(78, 76, 76);" 
+                                for='passwordId'>
+                                Password
+                            </label>
+                        <input  class="form-control" 
+                                type="password" 
+                                id="passwordId"
+                                formControlName="password"
+                                [ngClass]="{'is-invalid':   loginForm.get('password').dirty &&
+                                                            !loginForm.get('password').valid}">
+                    </div>
+                </div>
+                <div class="m-3">
+                    <!-- <mat-checkbox>Remember me</mat-checkbox> -->
+                    <div class="form-group" style="float: right; color: #f7f7f7;">
+                        <input  class="form-control" 
+                                style="background-color: #ceb714; font-size: small; color: white;"
+                                value="Login"
+                                type="submit" 
+                                [disabled]=!loginForm.valid >
+                    </div>
+                    
+                </div>
+                <div class="mt-4 mb-3">
+                    <a style="color: #ceb714;" [routerLink]="['/resetPassword']">Forgot your password?</a>
+                </div>
+            </form>
+        </mat-card-content>
+    </mat-card>
+    </div>
+  </div>
+  
+  
+  

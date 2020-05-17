@@ -1,0 +1,29 @@
+<div class="d-flex justify-content-center mb-5 mt-3" style="color: white; font-size: 20px;">
+  Your Recent Files
+</div>
+<div class="col-xs-12 col-md-8" style="margin: auto;">
+  <mat-divider *ngIf="files.length"></mat-divider>
+</div>
+<div class="col-xs-12 col-md-8" *ngFor="let file of files" style="margin: auto;">
+  <div class="d-flex justify-content-between m-2" style="height: 50px;">
+    <div>
+      <div style="text-align: left; color: white;">{{file.fileName}}</div>
+      <div style="text-align: left; color: rgb(241, 236, 236); font-size: 12px;">uploaded {{file.fileModifiedLast}} ago</div>
+    </div>
+    <div></div>
+    <div class="dropdown">
+      <button mat-icon-button id="dropdownMenuButton" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        <mat-icon style="color: white;">more_vert</mat-icon>
+      </button>
+      <div class="dropdown-menu m-2" aria-labelledby="dropdownMenuButton" style="border-radius: 5px;">
+        <button class="dropdown-item" type="button" (click)="onDownload(file.fileUrl)">Download</button>
+        <!-- <button class="dropdown-item" type="button" (click)="onRename(file.fileId)">Rename</button> -->
+        <button class="dropdown-item" type="button" (click)="onDelete(file.fileId, filePath)">Delete</button>
+      </div>
+    </div>
+  </div>
+  <div>
+    <mat-divider></mat-divider>
+  </div>
+</div>

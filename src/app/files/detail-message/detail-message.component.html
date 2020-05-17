@@ -1,0 +1,27 @@
+<div class="col-md-12">
+  <mat-card style="height: 200px; text-align: center;">
+    <mat-card-content>
+      <div style="margin-top: 70px;" *ngIf="(selectedFile == null) && selectAFileForMoreDetail">
+        Select a file for more details
+      </div>
+      <div *ngIf="selectedFile" class="mt-5">
+        <div>
+          <label>{{selectedFile.fileName}}</label>
+        </div>
+        <div>
+          <label>{{selectedFile.fileSize}}</label>
+        </div>
+        <div>
+          <label>Last Modified : {{selectedFile.fileModifiedLast | date: 'medium'}}</label>
+        </div>
+      </div>
+      <div  class="mt-4">
+        <label *ngIf="numberofFilesSelectedMessage">{{numberofFilesSelectedMessage}}</label>
+      </div>
+
+    </mat-card-content>
+  </mat-card>
+  <div class="mt-2 ml-3" *ngIf="showDelete">
+    <button mat-flat-button style="background-color: #ceb714;;" type="button" (click)="onClickDelete(filesForDelete)">Delete Files</button>
+  </div>
+</div>

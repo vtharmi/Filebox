@@ -1,0 +1,80 @@
+<div class="row" >
+    
+  <div class="col-xs-12" style="margin: auto; margin-top: 100px;">
+  <mat-card class="card">
+    <mat-card-header>
+      <mat-card-title style="color: rgb(78, 76, 76);">Create an account</mat-card-title>
+      <div class="m-1 p-1">
+        <mat-card-subtitle>or
+          <span>
+            <a [routerLink]="['/login']" style="color: #ceb714;">log in</a>
+          </span>
+        </mat-card-subtitle>
+      </div>
+    </mat-card-header>
+
+    <mat-card-content>
+      <form novalidate [formGroup]="signUpForm" (ngSubmit)="submit()">
+        <div>
+          <div class="form-group col s12" style="color: #f7f7f7;">
+            <label style="color: rgb(78, 76, 76);" for='emailId'>
+              Email
+            </label>
+            <input class="form-control form-control-m" type="text" id="emailId" placeholder="Email(required)"
+              formControlName="email" [ngClass]="{'is-invalid': emailMessage}">
+            <span class="invalid-feedback">
+              {{emailMessage}}
+            </span>
+            
+          </div>
+        </div>
+
+        <div formGroupName="passwordGroup">
+          <div class="form-group col s12" style="color: #f7f7f7;">
+            <label style="color: rgb(78, 76, 76);" for='passwordId'>
+              Password
+            </label>
+            <input  class="form-control form-control-m"
+                    type="password"
+                    id="passwordId"
+                    formControlName="password"
+                    [ngClass]="{'is-invalid': passwordMessage}">
+            <span class="invalid-feedback">
+              {{passwordMessage}}
+            </span>
+          </div>
+
+
+          <div>
+            <div class="form-group col s12" style="color: #f7f7f7;">
+              <label style="color: rgb(78, 76, 76);" for='confirmPasswordId'>
+                Confirm password
+              </label>
+              <input class="form-control form-control-m" type="password" id="confirmPasswordId"
+                formControlName="confirmPassword" [ngClass]="{'is-invalid': signUpForm.get('passwordGroup').errors||
+                                              ((signUpForm.get('passwordGroup.confirmPassword').touched || 
+                                              signUpForm.get('passwordGroup.confirmPassword').dirty) && 
+                                              !signUpForm.get('passwordGroup.confirmPassword').valid) }">
+              <span class="invalid-feedback">
+                <span *ngIf="signUpForm.get('passwordGroup').errors?.match">
+                  The confirmation does not match the password
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="form-group row " style="float: right; color: #f7f7f7; margin-left: auto; margin-right: 2px;">
+            <button class="form-control form-control-m" style="background-color: #ceb714; font-size: small;"
+              type="submit"
+              [title]="signUpForm.valid ? 'Save your entered data': 'Disabled untile the form data is valid'"
+              [disabled]="!signUpForm.valid">
+              Create an account
+            </button>
+          </div>
+        </div>
+      </form>
+    </mat-card-content>
+  </mat-card>
+  </div>
+</div>

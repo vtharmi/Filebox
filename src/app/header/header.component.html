@@ -1,0 +1,16 @@
+<div>
+  <nav class="navbar navbar-expand navbar-dark fixed-top" style="background-color: #ceb714;" role="navigation">
+    <span class="navbar-brand" *ngIf="userIsAuthenticated">{{title}}</span>
+    <span class="navbar-brand" *ngIf="!userIsAuthenticated" style="text-align: center; width: 100%;">{{title}}</span>
+    <ul class="nav nav-pills" *ngIf="userIsAuthenticated">
+      <li class="nav-item" routerLinkActive="active"><a class="nav-link" routerLink="/home" style="color: white;">Home</a></li>
+      <li class="nav-item" routerLinkActive="active"><a class="nav-link" routerLink="/files" style="color: white;">Files</a></li>
+    </ul>
+    <span class="rightEnd"></span>
+    <ul class="nav nav-pills" *ngIf="userIsAuthenticated">
+      <li class="nav-item rightEnd" routerLinkActive="active"><a class="nav-link" routerLink="/login" style="color: white; float: right;" (click)="onlogout()">Logout</a></li>
+    </ul>
+  </nav>
+</div>
+<mat-divider class="mat-divider mat-divider-horizontal" role="separator" aria-orientation="horizontal">
+</mat-divider>
